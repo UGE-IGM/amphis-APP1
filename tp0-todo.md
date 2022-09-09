@@ -2,6 +2,11 @@
 
 - Créer un compte [GitHub](https://github.com) si vous n'en avez pas, préférablement avec votre mail étudiant
 - Accéder au [problème 1 sur GitHub classroom](https://classroom.github.com/a/4Md7fpQz)
+- Créer une clé ssh ou un token personnel d'accès pour assurer l'accès de git.
+  * Pour une clé ssh :
+    1. [Vérifier si vous avez déjà une clé.](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys) S'il n'y en a pas, alors [créer une nouvelle clé](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). Pour le passphrase, vous pouvez ne rien mettre.
+    2. [Ajouter votre clé privée à votre compte Github.](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+  * Pour un token personnel d'accès, voir [la doc](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 - Rejoindre l'équipe appelée `numero-nom1-nom2-nom3` où `numero` est le numéro de votre groupe, et que `nom1`, `nom2` et `nom3` sont les noms des membres de l'équipe dans l'ordre alphabétique (ou la créer si nécessaire)  
   Attention, ne vous trompez pas d'équipe, vous ne pourrez pas en changer !
 - Relire *en détail* le sujet du problème 1, contenu dans le repo de votre équipe
