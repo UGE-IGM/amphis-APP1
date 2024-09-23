@@ -6,7 +6,8 @@ nombre_lignes = 10
 nombre_colonnes = 10
 hauteur_ligne = hauteur_fenetre / nombre_lignes
 largeur_colonne = largeur_fenetre / nombre_colonnes
-    
+
+
 def dessine_quadrillage():
     for i in range(1, nombre_lignes):
         y = i * hauteur_ligne
@@ -14,6 +15,7 @@ def dessine_quadrillage():
     for i in range(1, nombre_colonnes):
         x = i * largeur_colonne
         fltk.ligne(x, 0, x, hauteur_fenetre)
+
 
 if __name__ == "__main__":
     fltk.cree_fenetre(largeur_fenetre, hauteur_fenetre)
